@@ -1,0 +1,81 @@
+<style type="text/css">
+body {
+}
+
+input {
+	 /*text-align: center;*/
+}
+
+div {
+	 color: black;
+}
+
+h1 {
+    color: black;
+    /*text-align: center;*/
+}
+
+#messagesDiv {
+	overflow:scroll;
+	height:100px;
+	width:265px;
+	margin:0 auto;
+	background-color: #4f46b7;
+}
+
+#messages {
+
+}
+
+#table {
+	color: black;
+}
+
+#content {
+	float: right;
+}
+
+a:link{
+  color:black;
+}
+a:visited{
+  color:black;
+}
+a:hover{
+  color:#4f46b7;
+}
+a:focus{
+  color:black;
+}
+a:active{
+  color:black;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    font-size: 24px;
+}
+
+/*p {
+	 background-color: blue;
+}
+
+script {
+	 background-color: blue;
+}
+
+head {
+	 background-color: blue;
+}*/
+
+html {
+	font-family: "Futura";
+	 background-color: #899cfc;
+}
+</style>
