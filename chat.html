@@ -1,6 +1,8 @@
 <!DOCTYPE html>
   <head>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
   </head>
@@ -18,6 +20,9 @@
           <li class="index-collection active-link folder">
             <a href="/" rel="photos" class="transition-link">photos.</a>
           </li>
+          <li class="index-collection active-link folder">
+            <a href="/jam.html" rel="music" class="transition-link">music.</a>
+           </li>
         </ul>
       </nav>
     </div>
@@ -26,9 +31,6 @@
       <input type='text' id='nameInput' placeholder='Name'>
       <input type='text' id='messageInput' placeholder='Message'>
     </div>
-    <div id='content'>
-      <h2> about. </h2>
-    <div>
     <script>
       var myDataRef = new Firebase('https://amber-inferno-7366.firebaseio.com/');
       $('#messageInput').keypress(function (e) {
